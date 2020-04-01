@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-shadow {
+    -webkit-box-shadow: -1px 7px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 7px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: -1px 7px 23px -10px rgba(0,0,0,0.75);
+}
+
+.main-container-grid {
+    display: grid;
+    grid-template-rows: 1fr 13fr 1fr;
+    height: 100%;
+    grid-row-gap: 1em;
+}
+
+.r1, .r3 {
+    display: grid;
+    background-color: #9BC1BC;
+    padding: 1em;
+    align-items: center;
+}
+
+.r3 {
+    text-align: center;
+    align-items: center;
+}
+
+.secondary-color-text {
+    color: #F4F1BB;
+}
+
+.accent-color-text {
+    color: #E6EBE0;
+}
+
+.r2 {
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+.three-column {
+    display: grid;
+    grid-template-columns: 2fr 8fr 3fr;
+    background-color: #FFF;
+    grid-column-gap: 1em;
+}
+
+.c1, .c3 {
+    background-color: #9BC1BC;
+}
+
+.c1 {
+    min-width: 200px;
+}
+
+.txt-center{
+    text-align: center;
+    margin: 15px auto 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 15px;
+}
+
+.left-nav {
+    list-style-type: none;
+}
+
+.left-nav > li > a {
+    display: block;
+    padding: 15px 0px 15px 30px;
+    background-color: #9BC1BC;
+    font-weight: bold;
+    text-decoration: none;
+    transition-duration: 0.7s;
+    color: #F4F1BB;
+}
+
+.left-nav > li > a:hover {
+    background-color: rgb(138, 136, 136);
+}
+
+.c2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    grid-auto-rows: min-content;
+    grid-gap: 1em;
+    background-color: #9BC1BC;
+}
+
+.c2-content{
+    grid-column: 1 / 5;
+    height: 37px;
+    width: 100%;
+    
+}
+
+.c2 > img {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+    max-height: 130px;
+    max-width: 130px;
+    
+}
+
+.c2 > p {
+    grid-column: 1/5;
+    padding: 15px 30px;
+    color: #F4F1BB;
+}
+
+/* .r1 {
+    grid-template-columns: 1fr 1fr;
+} */
+
+.r1 > img {
+    margin-top: 15px;
+    max-width: 100px;
+    max-height: 100px;
+    /* justify-self: right; */
+}
+
+.r2-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
