@@ -1,4 +1,4 @@
-# IS183MidtermFiles
+# IS183MidtermFiles 
 
 ## Midterm Instructions (PART 2): 
 A week ago, you decide to earn additional money to buy books for next semester and created professional profile on freelancer.com. You had place a few bids on some website projects you think you can deliver on time and on budget. Today, you received an email from freelancer.com informing you that you have won one of those bids. The client (Gourmet Coffee & Tea) wish to move fast on this project and ask you to start immediately. The email provided by freelancer.com includes project specifications and theme colors. 
